@@ -12,6 +12,11 @@ The idea comes from Jens Jens Kutilek's [Fira Sans Replacement](https://github.c
 ## How it works
 This does not hack or patch your OS in any way. It is a completely non-destructive way to replace the systemfont. It works by modifying the Source Sans font files to set their names to what Yosemite expects Helvetica to be. By placing them in your library/fonts folder, they will be loaded before the actual Helvetica fonts. The original fonts are not modified or replaced. 
 
+## Known Issues
+- Google Chrome v.38 and 39 will crash on launch. V. 40 dev seems to work fine
+- User name is misaligned in the menubar
+- Descenders get cut off in spotlight
+
 ## How to install
 
 ### Download the font files
