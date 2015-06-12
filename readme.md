@@ -6,7 +6,7 @@ If you're not crazy about using Helvetica for your UI, this is an easy way to ch
 
 The idea comes from Jens Jens Kutilek's [Fira Sans Replacement](https://github.com/jenskutilek/FiraSystemFontReplacement) and generated with Thai Pangsakulyanont's [Yosemite System Font Patcher](https://github.com/dtinth/YosemiteSystemFontPatcher).
 
-### Warning: This package has not been extensively tested. It works in my system without problems, but use at your own risk. Specifically, most users report problems using Chrome after using this update.
+### Warning: This package has not been extensively tested. It works in my system without problems, but use at your own risk. 
 
 
 ![Yosemite Source Sans](http://note.io/1uzNWaE)
@@ -15,7 +15,6 @@ The idea comes from Jens Jens Kutilek's [Fira Sans Replacement](https://github.c
 This does not hack or patch your OS in any way. It is a completely non-destructive way to replace the systemfont. It works by modifying the Source Sans font files to set their names to what Yosemite expects Helvetica to be. By placing them in your /library/fonts folder, they will be loaded before the actual Helvetica fonts. The original fonts are not modified or replaced. 
 
 # Known Issues
-- Google Chrome will crash on launch on most systems.
 - User name is misaligned in the menubar
 - Descenders get cut off in spotlight
 
